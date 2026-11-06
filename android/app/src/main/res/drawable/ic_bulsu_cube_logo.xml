@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <!-- Top Face of Isometric Cube -->
+    <path
+        android:fillColor="#0B194D"
+        android:pathData="M48,8 L78,25 L48,42 L18,25 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="1.5"
+        android:pathData="M38,20 L58,32" />
+    <!-- Left Face of Cube -->
+    <path
+        android:fillColor="#162970"
+        android:pathData="M18,27 L46,43 L46,78 L18,62 Z" />
+    <path
+        android:fillColor="#0B194D"
+        android:pathData="M24,35 L40,44 L40,54 L24,45 Z" />
+    <path
+        android:fillColor="#0B194D"
+        android:pathData="M24,52 L40,61 L40,71 L24,62 Z" />
+    <!-- Right Face of Cube -->
+    <path
+        android:fillColor="#071033"
+        android:pathData="M50,43 L78,27 L78,62 L50,78 Z" />
+    <path
+        android:fillColor="#162970"
+        android:pathData="M56,44 L72,35 L72,62 L56,71 Z" />
+</vector>

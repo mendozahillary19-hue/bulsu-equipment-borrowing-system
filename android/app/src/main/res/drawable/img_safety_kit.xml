@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Safety Goggles Lens (Transparent Cyan) -->
+    <path
+        android:fillColor="#BAE6FD"
+        android:strokeColor="#0284C7"
+        android:strokeWidth="3"
+        android:pathData="M25,50 C25,40 45,40 55,50 C60,45 65,45 70,50 C80,40 100,40 100,50 C100,68 80,72 65,65 C55,72 25,68 25,50 Z" />
+    <!-- Elastic Strap (Black) -->
+    <path
+        android:strokeColor="#1E293B"
+        android:strokeWidth="4"
+        android:fillColor="#00000000"
+        android:pathData="M25,50 C15,55 15,65 25,70 M100,50 C110,55 110,65 100,70" />
+</vector>

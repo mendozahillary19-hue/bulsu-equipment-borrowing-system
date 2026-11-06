@@ -1,0 +1,42 @@
+# ==============================================================================
+# BulSU Equipment Borrowing System - .gitignore
+# ==============================================================================
+
+# --- Android Build & Gradle Artifacts ---
+.gradle/
+**/build/
+!releases/*.apk
+android/.gradle/
+android/app/build/
+android/local.properties
+android/captures/
+android/.externalNativeBuild/
+android/.cxx/
+
+# --- Maven & Java Backend Artifacts ---
+backend/target/
+*.class
+*.log
+
+# --- IDEs & Editor Configuration ---
+.idea/
+*.iml
+*.iws
+*.ipr
+.vscode/
+.classpath
+.project
+.settings/
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# --- Temporary & Scratch Files ---
+*.tmp
+*.bak
+*.swp
+*~

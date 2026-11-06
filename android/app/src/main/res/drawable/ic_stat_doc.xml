@@ -1,0 +1,23 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="44dp"
+    android:height="44dp"
+    android:viewportWidth="44"
+    android:viewportHeight="44">
+    <!-- Paper Sheet (Light Ochre / Cream) -->
+    <path
+        android:fillColor="#F6E5B8"
+        android:strokeColor="#E5A93C"
+        android:strokeWidth="2.5"
+        android:pathData="M11,7 H27 L33,13 V35 C33,36.1 32.1,37 31,37 H11 C9.9,37 9,36.1 9,35 V9 C9,7.9 9.9,7 11,7 Z" />
+    <!-- Folded Corner -->
+    <path
+        android:fillColor="#E5A93C"
+        android:pathData="M27,7 V13 H33 Z" />
+    <!-- Lines on Document -->
+    <path
+        android:strokeColor="#C98A26"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M15,20 H25 M15,25 H27 M15,30 H22" />
+</vector>

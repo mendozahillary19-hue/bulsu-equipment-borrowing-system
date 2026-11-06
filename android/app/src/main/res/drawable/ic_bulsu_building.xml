@@ -1,0 +1,26 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="36dp"
+    android:height="36dp"
+    android:viewportWidth="36"
+    android:viewportHeight="36">
+    <!-- University Building Body (Gold) -->
+    <path
+        android:fillColor="#C98A26"
+        android:pathData="M6,8 L30,8 L30,32 L6,32 Z" />
+    <!-- Pediment / Roof Accent -->
+    <path
+        android:fillColor="#8B5E14"
+        android:pathData="M4,8 L18,2 L32,8 Z" />
+    <!-- Windows Row 1 -->
+    <path
+        android:fillColor="#0B194D"
+        android:pathData="M10,12 H14 V16 H10 Z M16,12 H20 V16 H16 Z M22,12 H26 V16 H22 Z" />
+    <!-- Windows Row 2 -->
+    <path
+        android:fillColor="#0B194D"
+        android:pathData="M10,18 H14 V22 H10 Z M16,18 H20 V22 H16 Z M22,18 H26 V22 H22 Z" />
+    <!-- Entrance Doorway -->
+    <path
+        android:fillColor="#0B194D"
+        android:pathData="M15,26 H21 V32 H15 Z" />
+</vector>

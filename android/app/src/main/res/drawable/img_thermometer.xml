@@ -1,0 +1,31 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- White Thermometer Casing -->
+    <path
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M35,90 L85,35" />
+    <!-- Metal Sensor Tip (Silver) -->
+    <path
+        android:strokeColor="#64748B"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M25,100 L35,90" />
+    <!-- Blue Cap Accent -->
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="10"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M85,35 L95,25" />
+    <!-- Mini LCD Screen (36.8 C) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M55,60 L65,50 L63,48 L53,58 Z" />
+</vector>

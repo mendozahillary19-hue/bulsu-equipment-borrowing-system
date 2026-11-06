@@ -1,0 +1,36 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Blue PCB Board -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M15,25 H105 V95 H15 Z" />
+    <!-- Silver USB Port -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="1"
+        android:pathData="M10,32 H26 V52 H10 Z" />
+    <!-- Black DC Barrel Power Jack -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M10,68 H28 V90 H10 Z" />
+    <!-- ATmega328P Microchip (Black rectangle with silver pins) -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M52,60 H92 V76 H52 Z" />
+    <!-- Crystal Oscillator (Silver oval) -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M38,52 H46 V64 H38 Z" />
+    <!-- Female Header Pin Connectors (Black bars) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M35,27 H98 V34 H35 Z M35,86 H98 V93 H35 Z" />
+    <!-- White Silk-screen Logo / Arduino Infinity Symbol -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M65,42 C67,42 68,43 69,45 C70,43 71,42 73,42 C75,42 77,44 77,46 C77,48 75,50 73,50 C71,50 70,49 69,47 C68,49 67,50 65,50 C63,50 61,48 61,46 C61,44 63,42 65,42 Z" />
+</vector>

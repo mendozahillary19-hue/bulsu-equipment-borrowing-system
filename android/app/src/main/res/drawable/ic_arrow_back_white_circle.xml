@@ -1,0 +1,14 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="32dp"
+    android:height="32dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <!-- White Circle -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M14,2 C7.37,2 2,7.37 2,14 C2,20.63 7.37,26 14,26 C20.63,26 26,20.63 26,14 C26,7.37 20.63,2 14,2 Z" />
+    <!-- Navy Arrow -->
+    <path
+        android:fillColor="#0B194D"
+        android:pathData="M15.41,8.59 L14,7.17 L7.17,14 L14,20.83 L15.41,19.41 L10.83,14 Z" />
+</vector>

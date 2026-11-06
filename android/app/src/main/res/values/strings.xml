@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">BulSU Equipment Borrowing</string>
+    <string name="university_name">BULACAN STATE UNIVERSITY</string>
+    <string name="college_name">COLLEGE OF ENGINEERING</string>
+    <string name="app_title">Equipment Borrowing System</string>
+    <string name="platform_tagline">EQUIPMENT BORROWING PLATFORM\nBORROW. USE . RETURN.</string>
+
+    <!-- Navigation -->
+    <string name="nav_home">Home</string>
+    <string name="nav_catalog">Catalog</string>
+    <string name="nav_history">History</string>
+    <string name="nav_profile">Profile</string>
+
+    <!-- Common Actions -->
+    <string name="btn_login">Login</string>
+    <string name="btn_signup">Sign Up</string>
+    <string name="btn_borrow">Borrow</string>
+    <string name="btn_submit_borrow">Submit Borrow Request</string>
+    <string name="btn_submit_return">Submit Return Request</string>
+    <string name="btn_edit_profile">Edit Profile</string>
+    <string name="btn_logout">Log out</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_save">Save Changes</string>
+
+    <!-- Categories -->
+    <string name="category_all">ALL</string>
+    <string name="category_tools">Tools &amp; Repairs</string>
+    <string name="category_electronics">Electronics &amp; Components</string>
+    <string name="category_testing">Testing &amp; Management</string>
+    <string name="category_others">Others</string>
+
+    <!-- Form Labels -->
+    <string name="label_student_id">Student ID / Account ID</string>
+    <string name="label_password">Password</string>
+    <string name="label_confirm_password">Confirm Password</string>
+    <string name="label_full_name">Full Name</string>
+    <string name="label_course_section">Course and Section</string>
+    <string name="label_email">Email Address</string>
+    <string name="label_contact">Contact Number</string>
+    <string name="label_search_hint">Search Equipment...</string>
+    <string name="label_available_stock">Available: %d</string>
+</resources>

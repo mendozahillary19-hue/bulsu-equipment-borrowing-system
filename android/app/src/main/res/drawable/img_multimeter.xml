@@ -1,0 +1,50 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Yellow Multimeter Body -->
+    <path
+        android:fillColor="#FBBF24"
+        android:strokeColor="#D97706"
+        android:strokeWidth="1.5"
+        android:pathData="M35,15 H85 C88,15 90,17 90,20 V100 C90,103 88,105 85,105 H35 C32,105 30,103 30,100 V20 C30,17 32,15 35,15 Z" />
+    <!-- LCD Display (Gray/Green) -->
+    <path
+        android:fillColor="#D1D5DB"
+        android:strokeColor="#4B5563"
+        android:strokeWidth="1"
+        android:pathData="M38,22 H82 V44 H38 Z" />
+    <!-- 7-Segment Numbers '000' -->
+    <path
+        android:fillColor="#1F2937"
+        android:pathData="M46,27 H54 V39 H46 Z M56,27 H64 V39 H56 Z M66,27 H74 V39 H66 Z" />
+    <!-- Rotary Dial (Dark Gray) -->
+    <path
+        android:fillColor="#374151"
+        android:pathData="M60,72 C68.28,72 75,65.28 75,57 C75,48.72 68.28,42 60,42 C51.72,42 45,48.72 45,57 C45,65.28 51.72,72 60,72 Z" />
+    <!-- Dial Indicator Pointer -->
+    <path
+        android:fillColor="#FBBF24"
+        android:pathData="M58,45 H62 V55 H58 Z" />
+    <!-- Red and Black Probe Jacks -->
+    <path
+        android:fillColor="#DC2626"
+        android:pathData="M45,92 C47.2,92 49,90.2 49,88 C49,85.8 47.2,84 45,84 C42.8,84 41,85.8 41,88 C41,90.2 42.8,92 45,92 Z" />
+    <path
+        android:fillColor="#111827"
+        android:pathData="M60,92 C62.2,92 64,90.2 64,88 C64,85.8 62.2,84 60,84 C57.8,84 56,85.8 56,88 C56,90.2 57.8,92 60,92 Z" />
+    <!-- Test Leads (Red probe and Black probe) -->
+    <path
+        android:strokeColor="#DC2626"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M95,30 V90" />
+    <path
+        android:strokeColor="#111827"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M102,40 V95" />
+</vector>

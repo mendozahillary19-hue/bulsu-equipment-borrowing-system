@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Red Wire Loop -->
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M25,85 C20,35 60,30 95,85" />
+    <!-- Yellow Wire Loop -->
+    <path
+        android:strokeColor="#EAB308"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M30,85 C25,45 60,40 90,85" />
+    <!-- Blue Wire Loop -->
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M35,85 C30,55 60,50 85,85" />
+    <!-- Black Dupont Connector Housings -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M20,85 H40 V98 H20 Z M80,85 H100 V98 H80 Z" />
+    <!-- Male Metal Pins -->
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M23,98 H25 V106 H23 Z M29,98 H31 V106 H29 Z M35,98 H37 V106 H35 Z M83,98 H85 V106 H83 Z M89,98 H91 V106 H89 Z M95,98 H97 V106 H95 Z" />
+</vector>

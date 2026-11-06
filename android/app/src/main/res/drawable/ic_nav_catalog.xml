@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="28dp"
+    android:height="28dp"
+    android:viewportWidth="28"
+    android:viewportHeight="28">
+    <!-- Toolbox Handle -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M11,4 H17 C17.6,4 18,4.4 18,5 V7 H20 V4 C20,2.9 19.1,2 18,2 H10 C8.9,2 8,2.9 8,4 V7 H10 V5 C10,4.4 10.4,4 11,4 Z" />
+    <!-- Toolbox Body -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M4,10 L7,7 H21 L24,10 V23 C24,24.1 23.1,25 22,25 H6 C4.9,25 4,24.1 4,23 Z" />
+    <!-- Center Latch (White) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M12,12 H16 V18 H12 Z" />
+</vector>

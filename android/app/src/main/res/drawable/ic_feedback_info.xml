@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="56dp"
+    android:height="56dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+    <!-- Blue circular background -->
+    <path
+        android:fillColor="#DBEAFE"
+        android:pathData="M28,2 C13.64,2 2,13.64 2,28 C2,42.36 13.64,54 28,54 C42.36,54 54,42.36 54,28 C54,13.64 42.36,2 28,2 Z" />
+    <!-- Navy/Blue circle -->
+    <path
+        android:fillColor="#1D4ED8"
+        android:pathData="M28,8 C17,8 8,17 8,28 C8,39 17,48 28,48 C39,48 48,39 48,28 C48,17 39,8 28,8 Z" />
+    <!-- White Info 'i' -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26,24 H30 V38 H26 Z M26,18 H30 V21 H26 Z" />
+</vector>

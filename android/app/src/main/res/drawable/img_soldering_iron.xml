@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Soldering Iron Handle (Yellow & Blue) -->
+    <path
+        android:strokeColor="#F59E0B"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M25,95 L65,55" />
+    <path
+        android:strokeColor="#1E293B"
+        android:strokeWidth="12"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M65,55 L75,45" />
+    <!-- Metal Heating Element & Tip (Silver) -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="6"
+        android:strokeLineCap="square"
+        android:fillColor="#00000000"
+        android:pathData="M75,45 L100,20" />
+    <path
+        android:strokeColor="#F8FAFC"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M100,20 L108,12" />
+    <!-- Power Cord -->
+    <path
+        android:strokeColor="#334155"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M25,95 C15,105 10,95 20,110" />
+</vector>

@@ -1,0 +1,25 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Stainless Steel Scale Beam -->
+    <path
+        android:strokeColor="#94A3B8"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:fillColor="#00000000"
+        android:pathData="M25,25 L100,100" />
+    <!-- Measuring Jaws (Fixed Jaw) -->
+    <path
+        android:fillColor="#64748B"
+        android:pathData="M20,20 L35,15 L25,35 Z" />
+    <!-- Digital LCD Slider Unit (Black/Gray with screen) -->
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M40,35 L60,55 L50,65 L30,45 Z" />
+    <!-- Mini LCD Screen (Light Green) -->
+    <path
+        android:fillColor="#A7F3D0"
+        android:pathData="M43,40 L53,50 L50,53 L40,43 Z" />
+</vector>

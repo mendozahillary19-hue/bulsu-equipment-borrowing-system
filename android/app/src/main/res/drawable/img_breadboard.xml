@@ -1,0 +1,37 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Breadboard White Body -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:strokeColor="#CBD5E1"
+        android:strokeWidth="1.5"
+        android:pathData="M15,35 H105 V85 H15 Z" />
+    <!-- Red and Blue Power Rails Lines -->
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M18,39 H102" />
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M18,43 H102" />
+    <path
+        android:strokeColor="#3B82F6"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M18,77 H102" />
+    <path
+        android:strokeColor="#EF4444"
+        android:strokeWidth="1.5"
+        android:fillColor="#00000000"
+        android:pathData="M18,81 H102" />
+    <!-- Center Divider Notch -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M15,59 H105 V61 H15 Z" />
+</vector>

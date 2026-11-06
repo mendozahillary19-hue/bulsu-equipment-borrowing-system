@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- BulSU Brand Colors -->
+    <color name="bulsu_navy">#0B194D</color>
+    <color name="bulsu_navy_dark">#071033</color>
+    <color name="bulsu_navy_light">#162970</color>
+    <color name="bulsu_gold">#C98A26</color>
+    <color name="bulsu_gold_dark">#8B5E14</color>
+    
+    <!-- Primary Action Colors -->
+    <color name="primary_blue">#3457D5</color>
+    <color name="primary_blue_hover">#283C99</color>
+    <color name="primary_blue_disabled">#9E9E9E</color>
+    
+    <!-- Neutral Backgrounds -->
+    <color name="screen_background">#F4F6F9</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="card_border">#E2E8F0</color>
+    <color name="card_light_gray">#EDF1F7</color>
+    
+    <!-- Text Colors -->
+    <color name="text_primary">#0F172A</color>
+    <color name="text_secondary">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
+    <color name="text_white">#FFFFFF</color>
+    <color name="text_gold">#C98A26</color>
+    
+    <!-- Status Badges Colors (Exact Figma Prototype Shades) -->
+    <!-- Pending (Peach/Orange) -->
+    <color name="status_pending_bg">#FEE4CB</color>
+    <color name="status_pending_text">#B45309</color>
+    
+    <!-- Approved (Soft Green) -->
+    <color name="status_approved_bg">#D4EDDA</color>
+    <color name="status_approved_text">#155724</color>
+    
+    <!-- Returned (Soft Sky Blue) -->
+    <color name="status_returned_bg">#CCE5FF</color>
+    <color name="status_returned_text">#0369A1</color>
+    
+    <!-- Rejected (Soft Pink/Red) -->
+    <color name="status_rejected_bg">#F8D7DA</color>
+    <color name="status_rejected_text">#721C24</color>
+    
+    <!-- Category & Filter Tabs -->
+    <color name="tab_selected_bg">#3457D5</color>
+    <color name="tab_selected_text">#FFFFFF</color>
+    <color name="tab_unselected_bg">#EAEFF5</color>
+    <color name="tab_unselected_text">#1E293B</color>
+    
+    <!-- Stepper Buttons -->
+    <color name="stepper_btn_bg">#E2E8F0</color>
+    <color name="stepper_btn_text">#1E293B</color>
+</resources>

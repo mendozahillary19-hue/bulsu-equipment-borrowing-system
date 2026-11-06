@@ -1,0 +1,39 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="360dp"
+    android:height="160dp"
+    android:viewportWidth="360"
+    android:viewportHeight="160">
+    <!-- Sky / Light Blue Background -->
+    <path
+        android:fillColor="#E0EDF8"
+        android:pathData="M0,0 H360 V160 H0 Z" />
+    <!-- White Concrete University Building Structure -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M30,50 H330 V160 H30 Z" />
+    <!-- Prominent Red Cantilevered Roof / Canopy (BulSU COE Signature) -->
+    <path
+        android:fillColor="#A91D22"
+        android:pathData="M15,40 L345,55 L340,70 L20,55 Z" />
+    <path
+        android:fillColor="#7A1216"
+        android:pathData="M20,55 L340,70 L340,75 L20,60 Z" />
+    <!-- Blue Entrance Lettering Banner: BULACAN STATE UNIVERSITY -->
+    <path
+        android:fillColor="#1E3A8A"
+        android:pathData="M60,75 H300 V90 H60 Z" />
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M70,82 H290 V85 H70 Z" />
+    <!-- Glass Main Portals / Windows -->
+    <path
+        android:fillColor="#475569"
+        android:pathData="M140,105 H220 V160 H140 Z" />
+    <path
+        android:fillColor="#94A3B8"
+        android:pathData="M70,110 H120 V150 H70 Z M240,110 H290 V150 H240 Z" />
+    <!-- Concrete Pillars -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M125,75 H138 V160 H125 Z M222,75 H235 V160 H222 Z" />
+</vector>

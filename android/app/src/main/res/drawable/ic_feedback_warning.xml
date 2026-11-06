@@ -1,0 +1,18 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="56dp"
+    android:height="56dp"
+    android:viewportWidth="56"
+    android:viewportHeight="56">
+    <!-- Amber circular background -->
+    <path
+        android:fillColor="#FEF3C7"
+        android:pathData="M28,2 C13.64,2 2,13.64 2,28 C2,42.36 13.64,54 28,54 C42.36,54 54,42.36 54,28 C54,13.64 42.36,2 28,2 Z" />
+    <!-- Amber triangle warning -->
+    <path
+        android:fillColor="#D97706"
+        android:pathData="M28,12 L43,38 H13 Z" />
+    <!-- White exclamation mark -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M26.5,23 H29.5 V31 H26.5 Z M26.5,33 H29.5 V36 H26.5 Z" />
+</vector>

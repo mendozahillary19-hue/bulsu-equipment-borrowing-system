@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="140dp"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="12dp"
+    android:background="@drawable/bg_card_rounded"
+    android:foreground="?attr/selectableItemBackground"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <!-- Equipment Image -->
+    <ImageView
+        android:id="@+id/ivFeaturedImage"
+        android:layout_width="96dp"
+        android:layout_height="86dp"
+        android:contentDescription="Featured Equipment"
+        android:scaleType="fitCenter"
+        android:src="@drawable/img_multimeter" />
+
+    <!-- Equipment Title -->
+    <TextView
+        android:id="@+id/tvFeaturedTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:ellipsize="end"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:maxLines="2"
+        android:minLines="2"
+        android:text="Digital Multimeter"
+        android:textColor="@color/text_primary"
+        android:textSize="13sp"
+        android:textStyle="bold" />
+
+    <!-- Available Status Pill Badge -->
+    <TextView
+        android:id="@+id/tvFeaturedStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/bg_badge_available"
+        android:fontFamily="serif"
+        android:paddingStart="12dp"
+        android:paddingTop="3dp"
+        android:paddingEnd="12dp"
+        android:paddingBottom="3dp"
+        android:text="Available"
+        android:textColor="@color/status_approved_text"
+        android:textSize="11sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

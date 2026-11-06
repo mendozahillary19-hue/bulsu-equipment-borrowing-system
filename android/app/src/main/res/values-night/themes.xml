@@ -1,0 +1,12 @@
+<resources>
+    <style name="Theme.BulSUEquipmentBorrowing" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/bulsu_navy</item>
+        <item name="colorPrimaryVariant">@color/bulsu_navy_dark</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <item name="colorSecondary">@color/primary_blue</item>
+        <item name="colorSecondaryVariant">@color/primary_blue_hover</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        <item name="android:statusBarColor">@color/bulsu_navy</item>
+        <item name="android:windowLightStatusBar">false</item>
+    </style>
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".BulsuApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/ic_bulsu_cube_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/ic_bulsu_cube_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BulSUEquipmentBorrowing"
+        android:usesCleartextTraffic="true">
+
+        <!-- Login Activity (Launcher) -->
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="true"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <!-- Registration Screen -->
+        <activity
+            android:name=".ui.auth.SignUpActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Main Screen (Home, Catalog, History, Profile) -->
+        <activity
+            android:name=".ui.main.MainActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Borrow Equipment Form -->
+        <activity
+            android:name=".ui.borrow.BorrowActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Request Details View -->
+        <activity
+            android:name=".ui.history.RequestDetailActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Return Equipment Form -->
+        <activity
+            android:name=".ui.returnequip.ReturnActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <!-- Lab Administrator Dashboard -->
+        <activity
+            android:name=".ui.admin.AdminDashboardActivity"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+    </application>
+
+</manifest>

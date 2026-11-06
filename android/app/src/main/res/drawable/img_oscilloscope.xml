@@ -1,0 +1,53 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+    <!-- Main Gray Chassis -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:strokeColor="#64748B"
+        android:strokeWidth="1.5"
+        android:pathData="M10,25 H110 V95 H10 Z" />
+    <!-- CRT / LCD Screen (Dark Blue/Black) -->
+    <path
+        android:fillColor="#0B132B"
+        android:pathData="M16,32 H78 V80 H16 Z" />
+    <!-- Oscilloscope Sine Wave / Pulse (Cyan) -->
+    <path
+        android:strokeColor="#38BDF8"
+        android:strokeWidth="2"
+        android:strokeLineCap="round"
+        android:strokeLineJoin="round"
+        android:fillColor="#00000000"
+        android:pathData="M20,56 C26,38 32,74 38,56 C44,38 50,74 56,56 C62,38 68,74 74,56" />
+    <!-- Grid Graticule Lines (Subtle navy) -->
+    <path
+        android:strokeColor="#1E293B"
+        android:strokeWidth="0.8"
+        android:fillColor="#00000000"
+        android:pathData="M16,56 H78 M47,32 V80" />
+    <!-- Control Knobs (Right panel) -->
+    <path
+        android:fillColor="#475569"
+        android:pathData="M92,42 C94.7,42 97,39.7 97,37 C97,34.3 94.7,32 92,32 C89.3,32 87,34.3 87,37 C87,39.7 89.3,42 92,42 Z" />
+    <path
+        android:fillColor="#475569"
+        android:pathData="M92,58 C94.7,58 97,55.7 97,53 C97,50.3 94.7,48 92,48 C89.3,48 87,50.3 87,53 C87,55.7 89.3,58 92,58 Z" />
+    <!-- BNC Channel Inputs (Bottom) -->
+    <path
+        android:fillColor="#CBD5E1"
+        android:strokeColor="#475569"
+        android:strokeWidth="1"
+        android:pathData="M26,88 C28.2,88 30,86.2 30,84 C30,81.8 28.2,80 26,80 C23.8,80 22,81.8 22,84 C22,86.2 23.8,88 26,88 Z" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:strokeColor="#475569"
+        android:strokeWidth="1"
+        android:pathData="M44,88 C46.2,88 48,86.2 48,84 C48,81.8 46.2,80 44,80 C41.8,80 40,81.8 40,84 C40,86.2 41.8,88 44,88 Z" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:strokeColor="#475569"
+        android:strokeWidth="1"
+        android:pathData="M62,88 C64.2,88 66,86.2 66,84 C66,81.8 64.2,80 62,80 C59.8,80 58,81.8 58,84 C58,86.2 59.8,88 62,88 Z" />
+</vector>
