@@ -275,14 +275,7 @@ bulsu-equipment-borrowing-system/
 - [ ] Admin inventory management (add, edit, retire equipment)
 - [ ] Exportable transaction reports (PDF / CSV)
 
----
 
-## 👥 Contributors
-
-| Name | Role |
-| :--- | :--- |
-| _Your Name_ | _Developer_ |
-| _Teammate Name_ | _Developer_ |
 
 **Institution:** Bulacan State University – College of Engineering
 
